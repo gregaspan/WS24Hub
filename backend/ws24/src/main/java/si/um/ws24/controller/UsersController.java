@@ -15,11 +15,6 @@ public class UsersController {
         return "Hello from RESTEasy Reactive";
     }
 
-    @GET
-    @Path("/{id}")
-    @Produces(MediaType.TEXT_PLAIN)
-    public String getUser(int id) {
-    }
 
 
 
